@@ -24,3 +24,11 @@ git push origin master -> {
     origin stands for which url do you want to push.
     master represents which branch do you want to push.
 }
+
+git branch feature -> used to create a new branch with name 'feature'
+
+git checkout feature, git checkout main -> used to shift between braches for committing.
+                            After checkout to a particular branch, all commits will go to that branch
+                            branch.
+
+git merge feature -> used to merge a branch named 'feature' to main branch
