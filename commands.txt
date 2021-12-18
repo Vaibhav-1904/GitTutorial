@@ -1,0 +1,17 @@
+# push, commit, rebase, merge, add, revert, log, diff
+
+git stash -> command takes uncommit changes(changes that you have just added) saves them in a working
+                directory and reverts your project to latest committed changes.
+
+git stash pop -> it is used to bring back the changes that we saved using git stash.
+
+git stash clear -> used to delete changes that we saved using git stash.
+
+git restore --staged .  -> this commands is used to undo changes that we added using git add .
+
+.git folder is used to keep track of your project versions(history)
+
+git log -> used to see your all time different versions of your project
+
+git reset (commit_hascode) ->  used to remove all changes that we commit after that commit_hascode.
+                                It brings back the project to that particular committed version. 
