@@ -15,3 +15,12 @@ git log -> used to see your all time different versions of your project
 
 git reset (commit_hascode) ->  used to remove all changes that we commit after that commit_hascode.
                                 It brings back the project to that particular committed version. 
+
+git status -> current status of your project directory.
+
+git remote -v -> will display all urls linked to that directory.
+
+git push origin master -> {
+    origin stands for which url do you want to push.
+    master represents which branch do you want to push.
+}
