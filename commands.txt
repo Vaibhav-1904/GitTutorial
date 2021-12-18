@@ -29,6 +29,6 @@ git branch feature -> used to create a new branch with name 'feature'
 
 git checkout feature, git checkout main -> used to shift between braches for committing.
                             After checkout to a particular branch, all commits will go to that branch
-                            branch.
+                            branch. HEAD pointer is used to point to brach on which the commits will be saved.
 
 git merge feature -> used to merge a branch named 'feature' to main branch
